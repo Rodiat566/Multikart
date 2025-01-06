@@ -6,6 +6,7 @@ import SinglePage from '../../pages/SinglePage'
 import Test from '../../pages/test'
 import Login from '../../pages/Login'
 import Register from '../../pages/Register'
+
 export default function Router() {
   return (
     <div>
@@ -18,6 +19,7 @@ export default function Router() {
         <Route path="/test" element={<Test />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        
       </Routes>
       </BrowserRouter>
     </div>
