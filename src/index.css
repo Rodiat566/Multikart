@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-red{
+    background-color: red;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-grey{
+    background-color: grey;
+}
+.bg-olive{
+    background-color: olive;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-skyblue{
+    background-color: skyblue;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-black{
+    background-color: black;
+}
+
+.bg-navy{
+    background-color: navy;
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "category": "NEW ARRIVAL",
+    "products": [
+      {
+        "id": 1,
+        "name": "trim dress",
+        "image": ["/image/pro19.jpg","/image/pro10.jpg"],
+        "price": 87.00,
+        "originalPrice": 145.00,
+        "rating": 4,
+        "colour":["bg-olive, bg-grey, bg-pink"],
+        "sizes": ["s", "l"]
+
+      },
+      {
+        "id": 2,
+        "name": "belted dress",
+        "image": ["/image/pro3.jpg","/image/pro17.jpg","/image/pro12.jpg"],
+        "price": 111.00,
+        "originalPrice": 185.00,
+        "rating": 4,
+        "colour":["bg-yellow, bg-white, bg-pink"]
+      },
+      {
+        "id": 3,
+        "name": "fitted dress",
+        "image": ["/image/pro1.jpg","/image/pro8.jpg","/image/pro15.jpg"],
+        "price": 104.40,
+        "originalPrice": 174.00,
+        "rating": 5,
+        "colour":["bg-yellow, bg-white, bg-pink"],
+        "sizes": ["s", "l"]
+      },
+      {
+        "id": 4,
+        "name": "belted top",
+        "image": ["/image/pro14.jpg","/image/pro16.jpg"],
+        "price": 98.00,
+        "originalPrice": 315.00,
+        "rating": 4,
+        "colour":["bg-yellow, bg-white, bg-pink"],
+        "sizes": ["s", "l"]
+      },
+      {
+        "id": 5,
+        "name": "waist dress",
+        "image": ["/image/pro19.jpg","/image/pro6.jpg","/image/pro18.jpg"],
+        "price": 104.40,
+        "originalPrice": 174.00,
+        "rating": 5,
+        "colour":["bg-yellow, bg-white, bg-pink"],
+        "sizes": ["s", "l"]
+      },
+      {
+        "name": "crop top",
+        "image": ["/image/pro11.jpg","/image/pro4.jpg","/image/pro5.jpg","/image/pro15.jpg"],
+        "price": 104.40,
+        "originalPrice": 174.00,
+        "rating": 5,
+        "colour":["bg-yellow, bg-white, bg-pink"],
+        "sizes": ["s", "l"]
+      },
+      {
+        "name": "sleeveless dress",
+        "image": ["/image/pro13.jpg","/image/pro1.jpg","/image/pro2.jpg"],
+        "price": 104.40,
+        "originalPrice": 174.00,
+        "rating": 5,
+        "colour":["bg-yellow, bg-white, bg-pink"],
+        "sizes": ["s", "l"]
+      },
+      {
+        "id": 6,
+        "name": "v-neck dress",
+        "image": ["/image/pro8.jpg","/image/pro7.jpg"],
+        "price": 104.40,
+        "originalPrice": 174.00,
+        "rating": 5,
+        "colour":["bg-yellow, bg-white, bg-pink"],
+        "sizes": ["s", "l"]
+      }
+    ]
+  },
+  {
+    "category": "FEATURED",
+    "products": [
+       {
+        "id": 7,
+      "name": "arm chair",
+      "image": ["/image/fit1.jpg","/image/feature1.jpg"],
+      "price": 250.00,
+      "originalPrice": 200.00,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    },
+    {
+      "id": 8,
+      "name": "oak Finish chair",
+      "image": ["/image/feature2.jpg","/image/fit1.jpg"],
+      "price": 290.00,
+      "originalPrice": 275.50,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    },
+    {
+      "id": 9,
+      "name": "wooden chair",
+      "image": ["/image/fit3.jpg","/image/feature3.jpg"],
+      "price": 400.00,
+      "originalPrice": 160.00,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    },
+    {
+      "id": 10,
+      "name": "wooden chair",
+      "image": ["/image/fit4.jpg","/image/feature4.jpg"],
+      "price": 300.0,
+      "originalPrice": 240.00,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    },
+    {
+      "id": 11,
+      "name": "wooden End Table",
+      "image": ["/image/fit5.jpg","/image/feature5.jpg"],
+      "price": 500.0,
+      "originalPrice": 400.00,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    },
+    {
+      "id": 12,
+      "name": "Lounge Chair",
+      "image": ["/image/fit6.jpg","/image/feature6.jpg"],
+      "price": 420.00,
+      "originalPrice": 378.00,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    },
+    {
+      "id": 13,
+      "name": "Lounge Chair",
+      "image": ["/image/fit7.jpg","/image/feature7.jpg"],
+      "price": 420.00,
+      "originalPrice": 378.00,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    },
+    {
+      "id": 14,
+      "name": "Lounge Chair",
+      "image": ["/image/feature1.jpg","/image/fit8.jpg"],
+      "price": 420.00,
+      "originalPrice": 378.00,
+      "rating": 5,
+      "colour":["bg-brown, bg-green"]
+    }
+  ]
+  },
+  {
+    "category": "SPECIAL",
+    "products": []
+  }
+ 
+]

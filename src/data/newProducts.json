@@ -1,0 +1,38 @@
+[
+    {
+        "name": "trim dress",
+        "image": "/image/pro19.jpg",
+        "originalPrice": 145,
+        "rating": 4
+      },
+    {
+        "name": "belted dress",
+        "image": "/image/pro8.jpg",
+        "originalPrice": 98,
+        "rating": 4
+      },
+    {
+        "name": "waist dress",
+        "image": "/image/pro9.jpg",
+        "originalPrice": 230,
+        "rating": 4
+      },
+    {
+        "name": "sleeveless dress",
+        "image": "/image/pro13.jpg",
+        "originalPrice": 290,
+        "rating": 4
+      },
+    {
+        "name": "maxi dress",
+        "image": "/image/pro5.jpg",
+        "originalPrice": 266,
+        "rating": 4
+      },
+    {
+        "name": "mini dress",
+        "image": "/image/pro18.jpg",
+        "originalPrice": 285,
+        "rating": 4
+      }
+]
