@@ -33,6 +33,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}>
         
+
         <div className="flex flex-col items-center ml-10 absolute right-1">
           <h4 className="text-sm tracking-wide text-red-500">10% OFF</h4>
           <h1 className="text-4xl font-bold mt-2">{headings[1]}</h1>
@@ -59,6 +60,7 @@ export default function Home() {
 
      {/* exclusive product*/}
      <div className="py-5">
+
      <Exclusive />
      </div>
      {/* exclusive product*/}
