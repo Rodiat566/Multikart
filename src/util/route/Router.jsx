@@ -19,7 +19,7 @@ export default function Router() {
         <Route path="/test" element={<Test />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        
+
       </Routes>
       </BrowserRouter>
     </div>

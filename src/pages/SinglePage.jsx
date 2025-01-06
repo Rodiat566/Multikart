@@ -39,8 +39,8 @@ export default function SinglePage() {
         </ul>
       </div>
       <br />
-     <div className=" overall  flex ">
-          <div className="flex flex-col border border-green-900">
+     <div className=" overall gap-32 flex ">
+          <div className="flex flex-col ">
             {/* dropdown */}
             <div className="   px-4 py-2 text-sm ">
                   <a
@@ -147,15 +147,15 @@ export default function SinglePage() {
     
 
      </div>
-     {/* <div className="py-5">
+     <div className="py-5">
       <RelatedProduct/>
-     </div> */}
+     </div>
 
      <div className='py-5'>
-      {/* <MultiCover/> */}
+      <MultiCover/>
      </div>
     <div>
-      {/* <BlogFooter/> */}
+      <BlogFooter/>
     </div>
          
       </div>

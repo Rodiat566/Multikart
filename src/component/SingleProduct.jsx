@@ -10,21 +10,21 @@ export default function SingleProduct() {
     const [selectedImageIndex, setSelectedImageIndex] = useState(0); // State for selected image
 
     useEffect(() => {
-        const allProducts = productDetails.flatMap(category => category.products);
-        const selectedProduct = allProducts.find(item => item.id === parseInt(id));
+        const allProducts = productDetails.flatMap(category => category.products); // Flatten products
+        const selectedProduct = allProducts.find(item => item.id === parseInt(id)); // Match product by id
         if (selectedProduct) {
             setProduct(selectedProduct);
         } else {
             setProduct({ error: "Product not found" });
         }
     }, [id]);
-    
+
     if (!product) return <div>Loading...</div>;
     if (product.error) return <div>{product.error}</div>;
 
     return (
         // Single product content 
-        <div className="container flex  p-6 border border-red-600" >
+        <div className="container flex  " >
             <div className="flex justify-between">
                 {/* Product Images */}
                 <div className="relative ">
@@ -51,7 +51,7 @@ export default function SingleProduct() {
             </div>
             
                 {/* Product Details */}
-               <div className='border border-black'>
+               <div className=''>
                <div className="  ">
                     <h1 className="text-2xl font-bold mb-4 uppercase">{product.name}</h1>
                     <p className=' flex gap-2'>
@@ -119,10 +119,10 @@ export default function SingleProduct() {
                     <div className="flex gap-3">
                         <button
                          className="inline-block mt-2 bg-red-500 text-white px-3 py-2 border cursor-pointer border-red-500 rounded-md hover:bg-white hover:text-black hover:border-red-500 transition-all duration-300"
-                         onClick={() => addToCart({ ...product, quantity: count })}
-                        >
+                         onClick={() => addToCart(product)}
+                         >
 
-                              Add to Cart
+                             Add to Cart
                         </button>
                         <a className="inline-block mt-2 bg-red-500 text-white px-3 py-2 border border-red-500 rounded-md hover:bg-white hover:text-black hover:border-red-500 transition-all duration-300">
                             Buy Now
@@ -150,4 +150,4 @@ export default function SingleProduct() {
                </div>
         </div>
     );
-}
+} 
